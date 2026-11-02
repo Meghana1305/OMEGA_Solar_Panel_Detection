@@ -1,4 +1,4 @@
-# OMEGA_Solar_Panel_Detection
+
 # OMEGA – Solar Panel Detection and Image Segmentation System
 
 ## 1. Project Overview
@@ -59,7 +59,37 @@ These architectures are included for learning and comparison. They are not all c
 - Computer Vision
 - PyTorch / TensorFlow (where applicable)
 
-## 7. Applications
+  ## 7. Dataset Information
+
+This project explores the publicly available Multi-resolution Dataset for Photovoltaic Panel Segmentation from Satellite and Aerial Imagery.
+
+**Dataset Name:** Multi-resolution Dataset for Photovoltaic Panel Segmentation
+
+**Dataset Source:** Zenodo
+
+**Download Link:** https://doi.org/10.5281/zenodo.5171712
+
+### Dataset Categories
+
+- **PV01:** UAV orthophotos (0.1 m spatial resolution).
+- **PV03:** Aerial imagery (0.3 m spatial resolution).
+- **PV08:** Satellite imagery (0.8 m spatial resolution).
+
+### Dataset Availability
+
+The original dataset contains large image files and corresponding segmentation masks. Due to GitHub storage limitations, the raw dataset files are not included in this repository.
+
+Users can download the original dataset directly from the official Zenodo source using the link provided above.
+
+**Note:** This repository contains project documentation and learning materials. The raw dataset must be downloaded separately.
+
+### Dataset Citation
+
+Hou, J., Ling, Y., and Liu, Y. (2021). Multi-resolution dataset for photovoltaic panel segmentation from satellite and aerial imagery. Zenodo.
+
+DOI: https://doi.org/10.5281/zenodo.5171712
+
+## 8. Applications
 
 - Solar Farm Monitoring
 - Renewable Energy Infrastructure Mapping
@@ -68,7 +98,7 @@ These architectures are included for learning and comparison. They are not all c
 - Satellite Image Analysis
 - Geospatial Data Applications
 
-## 8. Learning Outcomes
+## 9. Learning Outcomes
 
 - Understood the fundamentals of object detection and image segmentation.
 - Explored YOLO and RT-DETR detection architectures.
@@ -76,13 +106,13 @@ These architectures are included for learning and comparison. They are not all c
 - Learned about image preprocessing techniques.
 - Developed an interest in applying computer vision to satellite imagery and renewable energy applications.
 
-## 9. Project Status
+## 10. Project Status
 
 **Status:** Academic / AI-ML Training Project.
 
 This repository documents the project concept, proposed workflow and deep learning architectures explored during training. It is not presented as a fully implemented or production-ready solar panel detection system.
 
-## 10. Future Improvements
+## 11. Future Improvements
 
 - Work with publicly available aerial and satellite image datasets.
 - Implement and evaluate object detection models.
@@ -94,4 +124,4 @@ This repository documents the project concept, proposed workflow and deep learni
 
 **Project Name:** OMEGA  
 **Domain:** Artificial Intelligence, Computer Vision and Remote Sensing  
-**Author:** Meghana O
+**Author:** Meghana ON
